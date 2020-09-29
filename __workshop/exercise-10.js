@@ -13,6 +13,13 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+    triangleLoop = () => {
+      for (let i ='#'; i.length<=7; i+='#') {
+        console.log(i);
+      }
+    }
+
+    triangleLoop();
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
